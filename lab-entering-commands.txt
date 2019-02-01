@@ -135,7 +135,7 @@ ls: doesnotexist: No such file or directory
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-a -l
 
 
 ==========
@@ -164,7 +164,9 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+ent-v314-004:~ student$ ls foo
+ls: foo: No such file or directory
+ent-v314-004:~ student$ 
 
 ==========
 15.  Type:
@@ -174,7 +176,9 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+ent-v314-004:~ student$ ls foo
+ls: foo: No such file or directory
+ent-v314-004:~ student$ 
 
 ==========
 16.  In the following line....
@@ -183,3 +187,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls, -a, Desktop, $
